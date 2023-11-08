@@ -1,0 +1,78 @@
+* {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  color: #ffffff;
+  background-color: lightblue;
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100px
+  
+}
+
+h1 {
+  margin-top: 120px;
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+nav {
+  text-align: right;
+  position: fixed;
+  top: 60px;
+  right: 5px;
+  margin: 5px;
+}
+
+ul1 {
+    color: #ffffff;
+  display: inline;
+  }
+
+/* List items in navigation bar */
+li1 {
+  /* Sets display to inline */
+  display: inline;
+  list-style-type: none;
+  font-size: 24px;
+
+}
+/* Webform */
+img {
+  /* Sets display to block */
+  display: block;
+  position: auto;
+  /*Sets margins to center elements*/
+  margin: 20px;
+ 
+}
+
+#space {
+  margin: 1000px;
+  display:block;
+  display:none;
+}
+#name {
+  color: black;
+}
+
+label {
+  color: black;
+}
+
+form {
+  text-align: center;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
